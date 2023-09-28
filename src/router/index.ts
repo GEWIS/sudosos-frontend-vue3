@@ -12,6 +12,7 @@ import UserOverView from '../views/UserOverView.vue';
 import SingleUserView from "@/views/SingleUserView.vue";
 import ProductsContainersView from "@/views/ProductsContainersView.vue";
 import apiService from "@/services/ApiService";
+import BorrelkaartenView from "@/views/BorrelkaartenView.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -79,7 +80,12 @@ const router = createRouter({
           path: '/manage-products',
           component: ProductsContainersView,
           name: 'products-containers-overview',
-        }
+        },
+        {
+          path: '/borrelkaarten',
+          component: BorrelkaartenView,
+          name: 'borrelkaarten',
+        },
         // Add other routes for authenticated users here
       ]
     }

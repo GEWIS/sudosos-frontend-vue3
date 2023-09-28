@@ -95,6 +95,7 @@ const leftItems = ref([ // TODO: Implement Submenus
       },
       {
         label: 'Social Drink Cards',
+        to: '/borrelkaarten',
       }
     ]
   },
