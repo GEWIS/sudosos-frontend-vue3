@@ -53,6 +53,7 @@ import type { Ref } from 'vue';
 import { useContainerStore } from '@/stores/container.store';
 import DetailedContainerCardComponent from '@/components/DetailedContainerCardComponent.vue';
 import type { BaseUserResponse, ContainerResponse } from '@sudosos/sudosos-client';
+import { useAuthStore, useUserStore } from '@sudosos/sudosos-frontend-common';
 import { usePointOfSaleStore } from '@/stores/pos.store';
 import { useRoute } from 'vue-router';
 import type { PointOfSaleWithContainersResponse } from '@sudosos/sudosos-client';
