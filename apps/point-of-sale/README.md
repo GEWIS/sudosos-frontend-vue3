@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 To install and use this application, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/GEWIS/sudosos-frontend.git`
-2. Navigate to the cloned repository: `cd sudosos-pos-vue-3`
+2. Navigate to the cloned repository: `cd sudosos-frontend\app\point-of-sale`
 3. Install dependencies: `npm install`
 
 ## Usage
